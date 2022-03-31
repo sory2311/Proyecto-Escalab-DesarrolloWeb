@@ -1,312 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
-    <title>Proyecto Final Desarrollo Web</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"/>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <title>Clinic Veterinary Tom & Neo (Proyecto Final)</title>
+  </head>
+  <body>
     <header class="header-home">
-        <!--*************Inicio Menu-->
-        <nav class="main-menu">
-           <a class="logotipo" href="index.html" target="_blank">
-              <img src="assets/logotipo.png" alt="Logotipo">
-            </a>
-            <ul class="menu-link-desktop">
-               <li>
-                 <a class="links-menu" href="#">Home</a>
-               </li>
-               <li>
-                 <a class="links-menu" href="#about">About</a>
-               </li>
-               <li>
-                 <a class="links-menu" href="#services">Service</a>
-               </li>
-               <li>
-                 <a class="links-menu" href="#contact">Contact</a>
-               </li>
-               <li>
-                 <form class="exmpl">
-                   <input type="text" placeholder="Search.." name="search2">
-                   <button type="submit"><img class="enviar-correo-header" src="assets/icon-enviar.png" alt="enviar-correo"></button>
-                 </form>
-               </li>
-           </ul>
-           <ul class="menu-link-mobile">
-              <li>
-                <a class="links-menu" href="#">Home</a>
-              </li>
-              <li>
-                 <a class="links-menu" href="#about">About</a>
-               </li>
-              <li>
-                <a class="links-menu" href="#services">Service</a>
-              </li>
-              <li>
-                <a class="links-menu" href="#contact">Contact</a>
-              </li>
-              <li>
-                <form class="exmpl">
-                  <input type="text" placeholder="Search.." name="search2">
-                  <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
-              </li>
-          </ul>
-        </nav>
-     </header>
-     <!--Fin Menu-->
-     <!--********Inicio Container-->
-     <section class="hero container">
-       <hgroup>
-          <h1 class="title-hero">First I wanted to be a veterinarian</h1>
-          <h3 class="description-hero">Lorem Ipsum available but the majority have sufered alteration in some form, by injected humour randomised words.</h3>
-          <div class="btns-varios">
-             <a class="btn-hero1" href="http://" target="_blank">Contact Us</a>
-             <a class="btn-hero2" href="http://" target="_blank">Our Service</a>
+      <!--*************Inicio Menu-->
+      <nav class="main-menu">
+        <a class="logotipo" href="index.html">
+          <img src="image/logot_50.png" alt="Logotipo" />
+        </a>
+        <ul class="menu-link-desktop">
+          <li>
+            <a class="links-menu" href="#">Home</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#about">About</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#services">Service</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#notices">Notices</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#section-6">Contact</a>
+          </li>
+          
+        </ul>
+        <ul class="menu-link-mobile">
+          <li>
+            <a class="links-menu" href="#">Home</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#about">About</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#services">Service</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#notices   ">Notices</a>
+          </li>
+          <li>
+            <a class="links-menu" href="#section-6">Contact</a>
+          </li>
+         
+        </ul>
+      </nav>
+    </header>
+    <!--Fin Menu-->
+    <!--********Inicio Container-->
+    <section class="hero container" id="about">
+      <hgroup>
+        <h1 class="title-hero">First I wanted to be a veterinarian</h1>
+        <h3 class="description-hero">
+          Lorem Ipsum available but the majority have sufered alteration in some
+          form, by injected humour randomised words.
+        </h3>
+        <div class="btns-varios">
+          <a class="btn-hero1" href="#section-6">Contact Us</a>
+          <a class="btn-hero2" href="#services">Our Service</a>
+        </div>
+      </hgroup>
+      <figure>
+        <img
+          class="image-hero"
+          src="image/gatos.png"
+          alt="Gatos Inicio"
+        />
+      </figure>
+    </section>
+    <!--********Fin Container********-->
+    <!--****************INICIO MAIN********-->
+    <main>
+      <!--****************seccion 1********-->
+      <section class="section-page section-serv container">
+        <hgroup>
+          <h2 class="title-section-1">
+            As a veterinarian and lover of animals.
+          </h2>
+          <h3 class="description-serv">
+            Lorem Ipsum available but the majoty sufered alteration in some
+            form,by humour randomised words.
+          </h3>
+          <a class="btns btn-hero2 just_1" href="#services">Our Service</a>
+        </hgroup>
+        <figure>
+          <img src="image/animals3.jpeg" alt="gatitos" />
+        </figure>
+      </section>
+      <section class="section-services" id="services">
+        <h1 class="title-section">Services</h1>
+        <h3 class="description-services">
+          Lorem Ipsum available but the majoty sufered alteration in some
+          form,by humour randomised words.
+        </h3>
+        <div class="container">
+          <article class="box-services">
+            <figure class="box-image-services">
+              <img src="image/dr vet.jpeg" alt="Veterinarian" />
+            </figure>
+            <h3 class="title-services">Veterinarian</h3>
+            <p>
+              Lorem Ipsum available but the majoty sufered alteration in some
+            </p>
+          </article>
+
+          <article class="box-services">
+            <figure class="box-image-services">
+              <img src="image/animals5.jpeg" alt="Vaccination" />
+            </figure>
+            <h3 class="title-services">Vaccination</h3>
+            <p>
+              Lorem Ipsum available but the majoty sufered alteration in some
+            </p>
+          </article>
+          <article class="box-services">
+            <figure class="box-image-services">
+              <img src="image/servicios3.jpeg" alt="Dental Care" />
+            </figure>
+            <h3 class="title-services">Dental Care</h3>
+            <p>
+              Lorem Ipsum available but the majoty sufered alteration in some
+            </p>
+          </article>
+        </div>
+      </section>
+      <!--****************Seccion 3********-->
+      <section class="section-page section-serv container">
+        <figure>
+          <img class="sect" src="image/services4.jpeg" alt="perro pata" />
+        </figure>
+        <hgroup>
+          <h2 class="title-section-3">
+            As a veterinarian and lover of animals.
+          </h2>
+          <h3 class="description-section-3">
+            Lorem Ipsum available but the majoty sufered alteration in some
+            form,by humour randomised words.
+          </h3>
+          <a class="btns btn-section-3 just" href="#section-4"
+            >Others Services</a
+          >
+        </hgroup>
+      </section>
+      <!--****************Seccion 4********-->
+      <section class="section-services" id="section-4">
+        <h1 class="title-section">Others Services</h1>
+        <h3 class="description-services">
+          Lorem Ipsum available but the majority have suffered alteration in
+          some form.
+        </h3>
+        <div class="container">
+          <article class="box-services">
+            <img
+              class="box-image-services"
+              src="image/animal2.jpeg"
+              alt="Buldog"
+            />
+            <h4 class="prices">Peluquería felina</h4>
+            <div class="prices"> 
+              <h4 class="line">$50</h4>
+              <h4>$30</h4>
+            </div>
+            <a class="btns btn-price" href="#">But Now</a>
+          </article>
+          <article class="box-services">
+            <img
+              class="box-image-services"
+              src="image/animal1.jpeg"
+              alt="No se"
+            />
+            <h4 class="prices">Adiestramiento</h4>
+            <div class="prices">
+                  
+              <h4 class="line">$40</h4>
+              <h4>$25</h4>
+            </div>
+            <a class="btns btn-price" href="#">But Now</a>
+          </article>
+          <article class="box-services">
+            <img
+              class="box-image-services"
+              src="image/servicios1.jpeg"
+              alt="Labrador"
+            />
+            <h4 class="prices">Peluquería Canina</h4>
+            <div class="prices">
+                
+              <h4 class="line">$45</h4>
+              <h4>$20</h4>
+            </div>
+            <a class="btns btn-price" href="#">But Now</a>
+          </article>
+        </div>
+      </section>
+      <!--****************Seccion 5 TEAM********-->
+      <!--section class="section-services" id="section-5">
+        <h1 class="title-section-5">The vetcare team</h1>
+        <h3 class="description-services">
+          Lorem Ipsum available but the majority have suffered alteration in
+          some form.
+        </h3>
+        <div class="container">
+          <article class="box-services">
+            <img src="image/doc-1.png" alt="Jennifer Mullen" />
+            <h5>Jennifer Mullen</h5>
+            <h6>VETERINARY</h6>
+            <div class="team-redes">
+              <a href="https://www.instagram.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Instagram.png"
+                  alt="instagram"
+              /></a>
+
+              <a href="https://www.facebook.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Facebook.png"
+                  alt="facebook"
+              /></a>
+
+              <a href="https://www.twitter.com/"
+                ><img class="iconos-teams" src="image/Twitter.png" alt="twitter"
+              /></a>
+
+              <a href="https://web.whatsapp.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/WhatsApp.png"
+                  alt="whatsapp"
+              /></a>
+            </div>
+          </article>
+          <article class="box-services">
+            <img src="image/doc-2.png" alt="Sheeren Collins" />
+            <h5>Sheeren Collins</h5>
+            <h6>ADMINISTRATION</h6>
+            <div class="team-redes">
+              <a href="https://www.instagram.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Instagram-footer.png"
+                  alt="instagram"
+              /></a>
+
+              <a href="https://www.facebook.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Facebook-footer.png"
+                  alt="facebook"
+              /></a>
+
+              <a href="https://www.twitter.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Twitter-footer.png"
+                  alt="twitter"
+              /></a>
+
+              <a href="https://web.whatsapp.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/WhatsApp-footer.png"
+                  alt="whatsapp"
+              /></a>
+            </div>
+          </article>
+          <article class="box-services">
+            <img src="image/doc-3.png" alt="Sheeren Collins" />
+            <h5>Sheeren Collins</h5>
+            <h6>ADMINISTRATION</h6>
+            <div class="team-redes">
+              <a href="https://www.instagram.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Instagram-footer.png"
+                  alt="instagram"
+              /></a>
+
+              <a href="https://www.facebook.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Facebook-footer.png"
+                  alt="facebook"
+              /></a>
+
+              <a href="https://www.twitter.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/Twitter-footer.png"
+                  alt="twitter"
+              /></a>
+
+              <a href="https://web.whatsapp.com/"
+                ><img
+                  class="iconos-teams"
+                  src="image/WhatsApp-footer.png"
+                  alt="whatsapp"
+              /></a>
+            </div>
+          </article>
+        </div>
+      </section-->
+      <!--****************Seccion 6 telePHs********-->
+      <section class="section-services" id="section-6">
+        <div class="container">
+          <article class="box-services">
+               <i class="fa-solid fa-heart-circle-plus"></i>
+            <h5>+34793</h5>
+            <h4>Happy Clients</h4>
+          </article>
+          <article class="box-services">
+            <i class="fa-solid fa-stethoscope"></i>
+            <h3>+45382</h3>
+            <h4>Departament</h4>
+          </article>
+          <article class="box-services">
+            <i class="fa-solid fa-syringe"></i>
+            <h3>+54762</h3>
+            <h4>Vaccinations</h4>
+          </article>
+        </div>
+      </section>
+      <!--****************Seccion 7 Post********-->
+      <section class="section-posts" id="notices">
+        <h1 class="title-section-5">Recent Notices</h1>
+        <h3 class="description-services">
+          Lorem Ipsum available but the majority have suffered alteration in
+          some form.
+        </h3>
+        <div class="container">
+          <div class="box-services card">
+            <img src="image/veterinary1.jpeg" alt="veterinarian1" />
+            <div class="posts-recient">
+              <h5 class="title-post">
+                As a veterinarian and lover of animals.
+              </h5>
+              <h6 class="fecha-post">FEBRUARY 09, 2020</h6>
+              <h6 class="title-lorem">
+                Lorem Ipsum available but the majority have suffered alteration
+                in some words which look
+              </h6>
+            </div>
           </div>
-       </hgroup>
-       <figure>
-          <img class="image-hero" src="assets/image-header-dog.png" alt="Buldog Negro Inicio">
-       </figure>
-     </section>
-     <!--********Fin Container********-->
-     <!--****************INICIO MAIN********-->
-     <main>
-        <!--****************seccion 1********-->
-        <section class="section-page section-serv container">
-          <hgroup>
-             <h2 class="title-section-1">As a veterinarian and lover of animals.</h2>
-             <h3 class="description-serv">Lorem Ipsum available but the majoty sufered alteration in some form,by humour randomised words.</h3>
-             <a class="btns btn-hero2 just_1" href="http://" target="_blank">Our Service</a>
-          </hgroup>
-          <figure>
-             <img src="assets/image-section-2.png" alt="perro pata">
-          </figure>
-        </section>
-        <section class="section-services" id="services">
-            <h1 class="title-section">Services</h1>
-            <h3 class="description-services">Lorem Ipsum available but the majoty sufered alteration in some form,by humour randomised words.</h3>
-            <div class="container">
-              <article class="box-services">
-                 <figure class="box-image-services">
-                    <img src="assets/image-2-section-3.png" alt="Veterinarian">
-                 </figure>
-                 <h3 class="title-services">Veterinarian</h3>
-                 <p>Lorem Ipsum available but the majoty sufered alteration in some</p>
-              </article>
-
-              <article class="box-services">
-                 <figure class="box-image-services">
-                    <img src="assets/image-2-section-3-1.png" alt="Vaccination">
-                 </figure>
-                 <h3 class="title-services">Vaccination</h3>
-                 <p>Lorem Ipsum available but the majoty sufered alteration in some</p>
-              </article>
-              <article class="box-services">
-                 <figure class="box-image-services">
-                    <img src="assets/image-1-section-3.png" alt="Dental Care">
-                 </figure>
-                 <h3 class="title-services">Dental Care</h3>
-                 <p>Lorem Ipsum available but the majoty sufered alteration in some</p>
-              </article>
+          <div class="box-services card">
+            <img src="image/veterinary2.jpeg" alt="veterinarian2" />
+            <div class="posts-recient">
+              <h5 class="title-post">
+                As a veterinarian and lover of animals.
+              </h5>
+              <h6 class="fecha-post">FEBRUARY 10, 2020</h6>
+              <h6 class="title-lorem">
+                Lorem Ipsum available but the majority have suffered alteration
+                in some words which look
+              </h6>
             </div>
-        </section>
-        <!--****************Seccion 3********-->
-        <section class="section-page section-serv container">
-          <figure>
-             <img class="sect" src="assets/image-section-4.png" alt="perro pata">
-          </figure>
-          <hgroup>
-             <h2 class="title-section-3">As a veterinarian and lover of animals.</h2>
-             <h3 class="description-section-3">Lorem Ipsum available but the majoty sufered alteration in some form,by humour randomised words.</h3>
-             <a class="btns btn-section-3 just" href="http://" target="_blank">Our Service</a>
-          </hgroup>
-        </section>
-        <!--****************Seccion 4********-->
-        <section class="section-services" id="section-4">
-            <h1 class="title-section">Title Here</h1>
-            <h3 class="description-services">Lorem Ipsum available but the majority have suffered alteration in some form.</h3>
-            <div class="container">
-              <article  class="box-services">
-                 <img class="box-image-services" src="assets/image-2-section-5.png" alt="Buldog">
-                 <div class="prices">
-                   <h4 class="line">$50</h4>
-                   <h4 >$30</h4>
-                 </div>
-                 <a class="btns btn-price" href="http://" target="_blank">But Now</a>
-              </article>
-              <article  class="box-services">
-                 <img class="box-image-services" src="assets/image-3-section-5.png" alt="No se">
-                 <div class="prices">
-                   <h4 class="line">$40</h4>
-                   <h4>$25</h4>
-                 </div>
-                 <a class="btns btn-price" href="http://" target="_blank">But Now</a>
-              </article>
-              <article  class="box-services">
-                 <img class="box-image-services" src="assets/image-1-section-5.png" alt="Labrador">
-                 <div class="prices">
-                   <h4 class="line">$45</h4>
-                   <h4>$20</h4>
-                 </div>
-                 <a class="btns btn-price" href="http://" target="_blank">But Now</a>
-              </article>
+          </div>
+          <div class=" box-services card">
+            <img src="image/veterinary3.jpeg" alt="veterinarian3" />
+            <div class="posts-recient">
+              <h5 class="title-post">
+                As a veterinarian and lover of animals.
+              </h5>
+              <h6 class="fecha-post">FEBRUARY 11, 2020</h6>
+              <h6 class="title-lorem">
+                Lorem Ipsum available but the majority have suffered alteration
+                in some words which look
+              </h6>
             </div>
-        </section>
-        <!--****************Seccion 5 TEAM********-->
-        <section class="section-services" id="section-5">
-            <h1 class="title-section-5">The vetcare team</h1>
-            <h3 class="description-services">Lorem Ipsum available but the majority have suffered alteration in some form.</h3>
-            <div class="container">
-              <article  class="box-services">
-                 <img src="assets/doc-1.png" alt="Jennifer Mullen">
-                 <h5>Jennifer Mullen</h5>
-                 <h6>VETERINARY</h6>
-                 <div class="team-redes">
-                    <a href="https://www.instagram.com/"><img class="iconos-teams" src="assets/Instagram.png" alt="instagram"></a>
-  
-                    <a href="https://www.facebook.com/"><img class="iconos-teams" src="assets/Facebook.png" alt="facebook"></a>
-  
-                    <a href="https://www.twitter.com/"><img class="iconos-teams" src="assets/Twitter.png" alt="twitter"></a>
-  
-                       <a href="https://web.whatsapp.com/"><img class="iconos-teams" src="assets/WhatsApp.png" alt="whatsapp"></a>
-  
-                </div>
-              </article>
-              <article  class="box-services">
-                 <img src="assets/doc-2.png" alt="Sheeren Collins">
-                 <h5>Sheeren Collins</h5>
-                 <h6>ADMINISTRATION</h6>
-                 <div class="team-redes">
-                    <a href="https://www.instagram.com/"><img class="iconos-teams" src="assets/Instagram-footer.png" alt="instagram"></a>
-  
-                    <a href="https://www.facebook.com/"><img class="iconos-teams" src="assets/Facebook-footer.png" alt="facebook"></a>
-  
-                    <a href="https://www.twitter.com/"><img class="iconos-teams" src="assets/Twitter-footer.png" alt="twitter"></a>
-  
-                        <a href="https://web.whatsapp.com/"><img class="iconos-teams" src="assets/WhatsApp-footer.png" alt="whatsapp"></a>
-  
-                </div>
-              </article>
-              <article  class="box-services">
-                 <img src="assets/doc-3.png" alt="Sheeren Collins">
-                 <h5>Sheeren Collins</h5>
-                 <h6>ADMINISTRATION</h6>
-                 <div class="team-redes">
-                    <a href="https://www.instagram.com/"><img class="iconos-teams" src="assets/Instagram-footer.png" alt="instagram"></a>
-  
-                    <a href="https://www.facebook.com/"><img class="iconos-teams" src="assets/Facebook-footer.png" alt="facebook"></a>
-  
-                    <a href="https://www.twitter.com/"><img class="iconos-teams" src="assets/Twitter-footer.png" alt="twitter"></a>
-  
-                        <a href="https://web.whatsapp.com/"><img class="iconos-teams" src="assets/WhatsApp-footer.png" alt="whatsapp"></a>
-  
-                </div>
-              </article>
-            </div>
-        </section>
-        <!--****************Seccion 6 telePHs********-->
-        <section class="section-services" id="section-6">
-            <div class="container">
-              <article class="box-services">
-                 <img src="assets/Icon-1.png" alt="Happy Clients">
-                 <h3>+34793</h3>
-                 <h4>Happy Clients</h4>
-              </article>
-              <article class="box-services">
-                 <img src="assets/Icon-2.png" alt="Departament">
-                 <h3>+45382</h3>
-                 <h4>Departament</h4>
-              </article>
-              <article class="box-services">
-                 <img src="assets/Icon-3.png" alt="Vaccination">
-                 <h3>+54762</h3>
-                 <h4>Vaccinations</h4>
-              </article>
-            </div>
-        </section>
-        <!--****************Seccion 7 Post********-->
-        <section class="section-posts" id="section-5">
-            <h1 class="title-section-5">Recent Posts</h1>
-            <h3 class="description-services">Lorem Ipsum available but the majority have suffered alteration in some form.</h3>
-            <div class="container">
-              <div class="box-services card">
-                 <img src="assets/recent-post-1.png" alt="veterinarian1">
-                 <div class="posts-recient">
-                    <h5 class="title-post">As a veterinarian and lover of animals.</h5>
-                    <h6 class="fecha-post">FEBRUARY 09, 2020 </h6>
-                    <h6 class="title-lorem">Lorem Ipsum available but the majority have suffered alteration in some words which look</h6>
-                    <h5 class="title-more">Read More +.</h5>
-                 </div>
-              </div>
-              <div class="box-services card">
-                 <img src="assets/recent-post-2.png" alt="veterinarian2">
-                 <div class="posts-recient">
-                    <h5 class="title-post">As a veterinarian and lover of animals.</h5>
-                    <h6 class="fecha-post">FEBRUARY 10, 2020 </h6>
-                    <h6 class="title-lorem">Lorem Ipsum available but the majority have suffered alteration in some words which look</h6>
-                    <h5 class="title-more">Read More +.</h5>
-                 </div>
-              </div>
-              <div class=" box-services card">
-                 <img src="assets/recent-post-3.png" alt="veterinarian3">
-                 <div class="posts-recient">
-                    <h5 class="title-post">As a veterinarian and lover of animals.</h5>
-                    <h6 class="fecha-post">FEBRUARY 11, 2020 </h6>
-                    <h6 class="title-lorem">Lorem Ipsum available but the majority have suffered alteration in some words which look</h6>
-                    <h5 class="title-more">Read More +.</h5>
-                 </div>
-              </div>
-            </div>
-        </section>
-     </main>
-     <footer>
-       <!-- Footer main -->
-       <section class="ft-main">
-           <div class="ft-main-item">
-               <h2 class="ft-title">About</h2>
-               <ul>
-                   <li><a href="#">History</a></li>
-                   <li><a href="#">Our Team</a></li>
-                   <li><a href="#">Brand Guidelines</a></li>
-                   <li><a href="#">Terms&Condition</a></li>
-                   <li><a href="#">Privacity Policy</a></li>
-               </ul>
-           </div>
-           <div class="ft-main-item">
-               <h2 class="ft-title">Services</h2>
-               <ul>
-                   <li><a href="#">How to Order</a></li>
-                   <li><a href="#">Our Product</a></li>
-                   <li><a href="#">Order Status</a></li>
-                   <li><a href="#">Promo</a></li>
-                   <li><a href="#">Payment Method</a></li>
-               </ul>
-           </div>
-           <div class="ft-main-item">
-               <h2 class="ft-title title-footer">Title Here</h2>
-               <h6>Lorem Ipsum available, but the mayority</h6>
-               <form class="example">
-                 <input type="text" name="search2">
-                 <button type="submit"><img class="enviar-correo" src="assets/icon-enviar.png" alt="enviar-correo"></button>
-               </form>
-               <div class="redes-sociales">
-                 <a href="https://www.instagram.com/"><img class="iconos-footer" src="assets/Instagram-footer.png" alt="instagram"></a>
-
-                 <a href="https://www.facebook.com/"><img class="iconos-footer" src="assets/Facebook-footer.png" alt="facebook"></a>
-
-                 <a href="https://www.twitter.com/"><img class="iconos-footer" src="assets/Twitter-footer.png" alt="twitter"></a>
-
-                     <a href="https://web.whatsapp.com/"><img class="iconos-footer" src="assets/WhatsApp-footer.png" alt="whatsapp"></a>
-
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Open Contacto -->
+    <section class="section-services section-contact">
+         <h1 class="title-section">Contacto</h1>
+         <form action="" class="form-landing-page" method="post">
+             <div class="input-field">
+                 <input class="input-form" type="text" name="name_contact" required placeholder="Nombre y apellido">
              </div>
-           </div>
-       </section>
-     </footer>
-</body>
+             <div class="input-field">
+                 <input class="input-form" type="email" name="email_contact" required placeholder="Ingresa tu email">
+             </div>
+             <div class="input-field">
+                 <input class="input-form" type="number" name="phone_contact" required placeholder="Ingresa tu teléfono">
+             </div>
+             <div class="input-field">
+                 <select class="select-form" required>
+                     <option value="Peluqueria">Peluqueria Felina</option>
+                     <option value="Peluquerias">Peluqueria Canina</option>
+                     <option value="Adiestramiento">Adiestramiento</option>
+                     <option value="Consultas">Otras Consultas</option>
+               </select>
+             </div>
+             <div class="input-field">
+                 <textarea class="textarea-form" name="commit_contact" cols="30" rows="10" placeholder="Déjanos tus comentarios o lo que quieras saber acerca de nuestros servicios" minlength="10" maxlength="200"></textarea>
+             </div> 
+             <button class="btns btn-section-3 btn-enviar" type="submit" value="submit" name="btn_enviar">Enviar y cotizar</button>
+         </form>
+     </section>
+     <!-- End Contacto -->
+   
+      <!-- Footer main -->
+      <footer>
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">About</h2>
+          <ul>
+           
+            <li><a href="terminos-condiciones.html">Terms&Condition</a></li>
+            <li><a href="privacy-policy.html">Privacity Policy</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Services</h2>
+          <ul>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#section-4">Promo</a></li>
+            <li><a href="#">Payment Method</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title title-footer">Title Here</h2>
+          <h6>Lorem Ipsum available, but the mayority</h6>
+          <div class="redes-sociales">
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+
+            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>

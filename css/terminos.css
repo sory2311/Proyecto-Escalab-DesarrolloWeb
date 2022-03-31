@@ -1,0 +1,37 @@
+.terminos{
+    color: white;
+    margin-top: 6rem;
+    text-align: center;
+
+}
+
+
+.condiciones{
+    padding: 0 6rem;
+    text-align: justify;
+   
+}
+
+li{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h5{
+  font-size:16px;
+  color: black;
+}
+.cook{
+    margin-bottom: 2.5rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;    
+    text-align: center;
+    padding: 1.25rem 1.875rem;
+}
+
