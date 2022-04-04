@@ -1,8 +1,7 @@
 .terminos{
     color: white;
-    margin-top: 6rem;
+    margin-top: 8rem;
     text-align: center;
-
 }
 
 
@@ -25,7 +24,7 @@ h5{
   color: black;
 }
 .cook{
-    margin-bottom: 2.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .footer {
@@ -33,5 +32,6 @@ h5{
     color: #fff;    
     text-align: center;
     padding: 1.25rem 1.875rem;
+   
 }
 
